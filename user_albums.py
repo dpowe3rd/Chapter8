@@ -35,7 +35,7 @@ while True:
             break
 
     else:
-        album2 = make_album(chk1, chk2, chk3)
+        album2 = make_album(chk1, chk2, int(chk3))
         print(album2)
 
         resume = input("Do you want to continue? Enter 'yes' or 'no'.")
